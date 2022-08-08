@@ -1,10 +1,10 @@
-\documentclass[lualatex]{beamer}
+\documentclass[platex]{beamer}
 \usepackage{luatexja-preset}                % LuaLaTeX する
 \usepackage[zerostyle=b]{newtxtt}           % typewriter 体
 \usepackage{url}
 \usepackage{graphicx}
-\setbeamertemplate{footline}[frame number]  % ページ番号を振る
 \setbeamertemplate{navigation symbols}{}    % 右下のアイコンを消す
+\renewcommand{\kanjifamilydefault}{\gtdefault} % 本文ゴシック体
 
 % タイトルの設定
 \title{\textbf{WORD編集部のご案内}}
@@ -30,7 +30,7 @@
   \begin{itemize}
    \item 特別号の例：引っ越し準備号，入学祝い号，研究室紹介号
   \end{itemize}
-  \item \alert{この類の雑誌で，現在発行しているものの中では，\textbf{筑波大学で最も伝統ある学類誌}}
+  \item \alert{この類の雑誌で，現在発行しているものの中では，\\\textbf{筑波大学で最も伝統ある学類誌}}
   \begin{itemize}
    \item Since 1979（cf. 情報学類設置は1977年）
    \item 詳細は『WORD』51号\footnote{\url{https://www.word-ac.net/post/2022/0605-word51/}}をチェック！
@@ -40,10 +40,22 @@
 \begin{frame}[plain]{表紙}
  \begin{figure}
   \centering
-  \includegraphics[width=32mm]{img/word49.jpg}
-  \includegraphics[width=32mm]{img/word51.jpg}
-  \fbox{\includegraphics[width=32mm]{img/word52.pdf}}
+  \includegraphics[width=32mm]{img/lab2021.pdf}
+  \includegraphics[width=32mm]{img/word51.pdf}
+  \includegraphics[width=32mm]{img/word52.pdf}
  \end{figure}
+\end{frame}
+\begin{frame}[plain]{『WORD』配布中！}
+ 普段は3A・3C棟で配布していますが，
+\begin{itemize}
+ \item 「WORDは大学新聞の学類誌特集からハブられました号」（2022/6発行）
+ \item 「WORDは発行から90日経過しても読めます号」（2022/8発行）
+\end{itemize}
+を\alert{オープンキャンパス（物理）会場でも配布}（先着順）しています．
+
+オープンキャンパスの記念に是非1部ずつお持ち帰りください！
+
+※在庫切れの場合はご容赦ください．
 \end{frame}
 \begin{frame}[plain]{WORD編集部室(3C212)}
  \begin{itemize}
@@ -57,7 +69,7 @@
  \includegraphics[width=50mm]{img/hondana.jpg}
 \end{figure}
 \end{frame}
-\begin{frame}[plain]{こんな人におすすめ}
+\begin{frame}[plain]{こんな人がいます}
  \begin{itemize}
   \item ネットワークやサーバに興味のある人
   \item （\LaTeX などの）組版に興味のある人
@@ -70,11 +82,25 @@
   \Huge\textbf{WORD編集部は，\\皆様をお待ちして\\おります！}
  \end{center}
 \end{frame}
+\begin{frame}[plain]{WORDから見た情報科学類の魅力}
+\pause
+ \begin{center}
+  \Huge \alert{\textbf{学生の自主性を\\大事にしてくれる！}}
+ \end{center}
+\pause
+WORDでの実例：
+\begin{itemize}
+ \item 部屋やネットワーク・サーバーの管理
+ \item 記事のネタ探しや執筆
+\end{itemize}
+などなど，学生の自由にさせてくれるので，やりたいことが（常識の範囲内で）自由にできる！
+\end{frame}
 \begin{frame}[plain]{リンク集}
  \begin{itemize}
   \item \url{https://www.word-ac.net/}
   \begin{itemize}
    \item 最近の過去号はここから見られる
+   \item \url{gemini://gemini.word-ac.net/}もあるよ
   \end{itemize}
   \item \url{https://twitter.com/word\_tsukuba}
   \begin{itemize}
